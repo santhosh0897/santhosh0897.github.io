@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+a{color:0x0000FF !important;}
+a:hover{color:0xFF3300 !important;}
+a:visited{color:0xFFCCCC !important;}
+
+
+.clearfix
+{
+	clear:both;
+}
+
+.floatright 
+{
+	margin:5px;
+	float:right;
+}
+
+.floatleft
+{
+	float:left;
+	clear:both;
+}
+
+
+.body-center
+{
+	width: 700px ;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+.mainDiv {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .heart {
+    color: red;
+  }
+
+  .github {
+    color : #000;
+  }
+
+  a:link {
+    text-decoration: none !important;
+  }
+
+  .textbox {
+  	height: 150px;
+  }
+  body {
+  background-color: #31b0d5;
+}
+.navbar
+{
+	float:left;
+	padding:5px;
+	margin-top:20px;
+	display:block;
+}
